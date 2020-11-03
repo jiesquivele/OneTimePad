@@ -53,6 +53,7 @@ fn bytes_to_text(text: &[u8]) -> String {
 
 }
 
+// Still modifying this function.
 fn applyXOR<'a>(key:  &'a [u8], text: &'a [u8]) -> &'a [u8] {
     let mut xor: &[u8] = &[];
     for b in text {
